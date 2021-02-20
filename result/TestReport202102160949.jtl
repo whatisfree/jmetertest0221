@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="129" it="0" lt="128" ct="70" ts="1613483370533" s="true" lb="HTTP请求" rc="200" rm="OK" tn="XML 8-1" dt="text" by="664" sby="600" ng="1" na="9">
+  <java.net.URL>http://ws.webxml.com.cn/WebServices/MobileCodeWS.asmx</java.net.URL>
+</httpSample>
+<sample t="2" it="0" lt="0" ct="0" ts="1613483371130" s="true" lb="调试取样器" rc="200" rm="OK" tn="XML 8-1" dt="text" by="560" sby="0" ng="1" na="9"/>
+<httpSample t="667" it="0" lt="667" ct="43" ts="1613483370533" s="true" lb="新增联系人" rc="200" rm="OK" tn="CRM跨线程组关联 4-1" dt="text" by="280" sby="454" ng="1" na="8">
+  <java.net.URL>http://192.168.1.108:8090/CrmContacts/addOrUpdate</java.net.URL>
+</httpSample>
+<httpSample t="737" it="0" lt="737" ct="44" ts="1613483370534" s="true" lb="正常登录" rc="200" rm="OK" tn="商城 1-1" dt="text" by="456" sby="300" ng="1" na="7">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://192.168.1.108/mtx/index.php?s=/index/user/login.html</java.net.URL>
+</httpSample>
+<httpSample t="319" it="0" lt="319" ct="5" ts="1613483370958" s="true" lb="后台登录" rc="200" rm="OK" tn="mtx商城发货测试 6-1" dt="text" by="442" sby="297" ng="1" na="7">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://192.168.1.108/mtx/admin.php?s=/admin/login.html</java.net.URL>
+</httpSample>
+<httpSample t="801" it="0" lt="801" ct="38" ts="1613483370534" s="true" lb="商城前台登录" rc="200" rm="OK" tn="mtx商城测试 5-1" dt="text" by="456" sby="300" ng="1" na="7">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://192.168.1.108/mtx/index.php?s=/index/user/login.html</java.net.URL>
+</httpSample>
+<httpSample t="801" it="0" lt="801" ct="43" ts="1613483370534" s="true" lb="正常登录" rc="200" rm="OK" tn="基于业务多接口的测试mtxshop 7-1" dt="text" by="456" sby="300" ng="1" na="7">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://192.168.1.108/mtx/index.php?s=/index/user/login.html</java.net.URL>
+</httpSample>
+<httpSample t="910" it="0" lt="910" ct="38" ts="1613483370534" s="true" lb="正常登录" rc="200" rm="OK" tn="文件上传 9-1" dt="text" by="456" sby="300" ng="1" na="7">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://192.168.1.108/mtx/index.php?s=/index/user/login.html</java.net.URL>
+</httpSample>
+<httpSample t="916" it="0" lt="916" ct="39" ts="1613483370533" s="true" lb="注册" rc="200" rm="OK" tn="商城注册 3-1" dt="text" by="534" sby="331" ng="1" na="7">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <java.net.URL>http://192.168.1.108/mtx/index.php?s=/index/user/reg.html</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1613483371876" s="true" lb="调试取样器" rc="200" rm="OK" tn="商城注册 3-1" dt="text" by="548" sby="0" ng="1" na="7"/>
+<httpSample t="582" it="0" lt="582" ct="0" ts="1613483371338" s="true" lb="添加购物车" rc="200" rm="OK" tn="mtx商城测试 5-1" dt="text" by="344" sby="340" ng="1" na="6">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://192.168.1.108/mtx/index.php?s=/index/cart/save.html</java.net.URL>
+</httpSample>
+<httpSample t="803" it="0" lt="803" ct="0" ts="1613483371282" s="false" lb="添加购物车正确" rc="200" rm="OK" tn="商城 1-1" dt="text" by="348" sby="340" ng="1" na="6">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /加入成功/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://192.168.1.108/mtx/index.php?s=/index/cart/save.html</java.net.URL>
+</httpSample>
+<httpSample t="518" it="0" lt="518" ct="0" ts="1613483371783" s="false" lb="发货" rc="200" rm="OK" tn="mtx商城发货测试 6-1" dt="text" by="348" sby="371" ng="1" na="6">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /发货成功/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://192.168.1.108/mtx/admin.php?s=/order/delivery.html</java.net.URL>
+</httpSample>
+<httpSample t="1842" it="0" lt="1842" ct="45" ts="1613483370534" s="true" lb="登录" rc="200" rm="OK" tn="CRM 2-1" dt="text" by="2450" sby="239" ng="1" na="6">
+  <java.net.URL>http://192.168.1.108:8090/login</java.net.URL>
+</httpSample>
+<httpSample t="615" it="0" lt="615" ct="0" ts="1613483371921" s="true" lb="提交订单" rc="200" rm="OK" tn="mtx商城测试 5-1" dt="text" by="1128" sby="394" ng="1" na="6">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://192.168.1.108/mtx/index.php?s=/index/buy/add.html</java.net.URL>
+</httpSample>
+<httpSample t="526" it="0" lt="526" ct="2" ts="1613483372096" s="true" lb="添加购物车-商品不存在" rc="200" rm="OK" tn="商城 1-1" dt="text" by="384" sby="347" ng="1" na="6">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://192.168.1.108/mtx/index.php?s=/index/cart/save.html</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1613483372802" s="true" lb="调试取样器" rc="200" rm="OK" tn="mtx商城发货测试 6-1" dt="text" by="3667" sby="0" ng="1" na="6"/>
+<httpSample t="384" it="0" lt="384" ct="1" ts="1613483372623" s="false" lb="添加购物车-商品数量超过库存" rc="200" rm="OK" tn="商城 1-1" dt="text" by="367" sby="343" ng="1" na="5">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /加入失败/</failureMessage>
+  </assertionResult>
+  <java.net.URL>http://192.168.1.108/mtx/index.php?s=/index/cart/save.html</java.net.URL>
+</httpSample>
+<httpSample t="332" it="0" lt="332" ct="2" ts="1613483373008" s="true" lb="添加购物车-商品id为空" rc="200" rm="OK" tn="商城 1-1" dt="text" by="371" sby="339" ng="1" na="5">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://192.168.1.108/mtx/index.php?s=/index/cart/save.html</java.net.URL>
+</httpSample>
+<sample t="1934" it="104" lt="0" ct="0" ts="1613483371339" s="true" lb="事务控制器-发货流程" rc="200" rm="Number of samples in transaction : 4, number of failing samples : 0" tn="基于业务多接口的测试mtxshop 7-1" dt="" by="2186" sby="1454" ng="1" na="5">
+  <httpSample t="953" it="0" lt="953" ct="0" ts="1613483371340" s="true" lb="前台下单" rc="200" rm="OK" tn="基于业务多接口的测试mtxshop 7-1" dt="text" by="1128" sby="394" ng="1" na="6">
+    <assertionResult>
+      <name>JSON断言</name>
+      <failure>false</failure>
+      <error>false</error>
+      <failureMessage></failureMessage>
+    </assertionResult>
+    <java.net.URL>http://192.168.1.108/mtx/index.php?s=/index/buy/add.html</java.net.URL>
+  </httpSample>
+  <httpSample t="173" it="0" lt="172" ct="0" ts="1613483372333" s="true" lb="后台登录" rc="200" rm="OK" tn="基于业务多接口的测试mtxshop 7-1" dt="text" by="345" sby="349" ng="1" na="6">
+    <assertionResult>
+      <name>响应断言</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>http://192.168.1.108/mtx/admin.php?s=/admin/login.html</java.net.URL>
+  </httpSample>
+  <httpSample t="561" it="0" lt="561" ct="1" ts="1613483372568" s="true" lb="后台付款" rc="200" rm="OK" tn="基于业务多接口的测试mtxshop 7-1" dt="text" by="368" sby="335" ng="1" na="5">
+    <assertionResult>
+      <name>JSON断言</name>
+      <failure>false</failure>
+      <error>false</error>
+      <failureMessage></failureMessage>
+    </assertionResult>
+    <java.net.URL>http://192.168.1.108/mtx/admin.php?s=/order/pay.html</java.net.URL>
+  </httpSample>
+  <httpSample t="247" it="0" lt="247" ct="0" ts="1613483373129" s="true" lb="后台发货" rc="200" rm="OK" tn="基于业务多接口的测试mtxshop 7-1" dt="text" by="345" sby="376" ng="1" na="5">
+    <assertionResult>
+      <name>响应断言</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <java.net.URL>http://192.168.1.108/mtx/admin.php?s=/order/delivery.html</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="1613483373378" s="true" lb="调试取样器" rc="200" rm="OK" tn="基于业务多接口的测试mtxshop 7-1" dt="text" by="728" sby="0" ng="1" na="5"/>
+<httpSample t="264" it="0" lt="264" ct="1" ts="1613483373341" s="true" lb="添加购物车-商品数量为空" rc="200" rm="OK" tn="商城 1-1" dt="text" by="375" sby="339" ng="1" na="4">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://192.168.1.108/mtx/index.php?s=/index/cart/save.html</java.net.URL>
+</httpSample>
+<httpSample t="2246" it="0" lt="2245" ct="0" ts="1613483371446" s="true" lb="上传头像" rc="200" rm="OK" tn="文件上传 9-1" dt="text" by="345" sby="54100" ng="1" na="3">
+  <java.net.URL>http://192.168.1.108/mtx/index.php?s=/index/user/useravatarupload.html</java.net.URL>
+</httpSample>
+<httpSample t="1844" it="0" lt="1844" ct="0" ts="1613483372381" s="true" lb="添加客户" rc="200" rm="OK" tn="CRM 2-1" dt="text" by="308" sby="602" ng="1" na="2">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <java.net.URL>http://192.168.1.108:8090/CrmCustomer/addOrUpdate</java.net.URL>
+</httpSample>
+<httpSample t="240" it="0" lt="240" ct="1" ts="1613483374416" s="true" lb="客户列表查询" rc="200" rm="OK" tn="CRM 2-1" dt="text" by="7508" sby="298" ng="1" na="2">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <java.net.URL>http://192.168.1.108:8090/CrmCustomer/queryPageList</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1613483374686" s="true" lb="调试取样器" rc="200" rm="OK" tn="CRM 2-1" dt="text" by="4762" sby="0" ng="1" na="2"/>
+<httpSample t="2220" it="0" lt="672" ct="0" ts="1613483372544" s="true" lb="支付订单" rc="200" rm="OK" tn="mtx商城测试 5-1" dt="text" by="572325" sby="624" ng="1" na="1">
+  <httpSample t="672" it="0" lt="672" ct="0" ts="1613483372544" s="true" lb="支付订单-0" rc="302" rm="Found" tn="mtx商城测试 5-1" dt="text" by="441" sby="244" ng="1" na="1">
+    <java.net.URL>http://192.168.1.108/mtx/index.php?s=/index/order/pay/id/186.html</java.net.URL>
+  </httpSample>
+  <httpSample t="1547" it="0" lt="1525" ct="4" ts="1613483373217" s="true" lb="支付订单-1" rc="200" rm="OK" tn="mtx商城测试 5-1" dt="text" by="571884" sby="380" ng="1" na="1">
+    <java.net.URL>http://192.168.1.108/mtx/payment_order_deliverypayment_respond.php?out_trade_no=20210216214931085339&amp;subject=è®¢å%C2%8D%C2%95æ%C2%94¯ä»%C2%98&amp;total_price=2100.00</java.net.URL>
+  </httpSample>
+  <java.net.URL>http://192.168.1.108/mtx/payment_order_deliverypayment_respond.php?out_trade_no=20210216214931085339&amp;subject=è®¢å%C2%8D%C2%95æ%C2%94¯ä»%C2%98&amp;total_price=2100.00</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1613483374765" s="true" lb="调试取样器" rc="200" rm="OK" tn="mtx商城测试 5-1" dt="text" by="3582" sby="0" ng="1" na="1"/>
+
+</testResults>
